@@ -1,0 +1,83 @@
+
+python -m pip install --upgrade pip
+
+
+#用手机4G开热点
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+
+conda install pytorch torchvision
+
+
+
+
+
+
+
+
+
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+
+
+https://mirrors.tuna.tsinghua.edu.cn/anaconda
+
+
+conda install pytorch torchvision cudatoolkit=10.1  -i https://mirrors.tuna.tsinghua.edu.cn/anaconda
+
+
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+# reference
+# https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+
+conda install pytorch torchvision cudatoolkit=10.0
+
+
+#https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64/?C=M&O=A
+conda install --offline pytorch-1.4.0-py3.7_cuda101_cudnn7_0.tar.bz2
+
+
+
+
+#豆瓣源
+-i https://pypi.douban.com/simple wxpython
+
+
+
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+
+conda install pytorch torchvision
+
+
+
+
+pip --default-timeout=100 install -U 第三方库名
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
